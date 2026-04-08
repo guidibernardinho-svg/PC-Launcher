@@ -1,0 +1,34 @@
+body {
+  margin:0;
+  background:#0f172a;
+  color:white;
+  font-family:sans-serif;
+}
+
+.desktop {
+  display:flex;
+  padding:20px;
+}
+
+.icon {
+  margin:10px;
+  text-align:center;
+}
+
+.taskbar {
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background:#111;
+  padding:10px;
+}
+
+.window {
+  display:none;
+  position:absolute;
+  top:50px;
+  left:20px;
+  width:90%;
+  height:70%;
+  background:#222;
+}
