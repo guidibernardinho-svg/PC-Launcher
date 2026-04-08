@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="desktop">
+  <div class="icon" onclick="openApp('explorer')">📁<br>Arquivos</div>
+  <div class="icon" onclick="openApp('browser')">🌐<br>Browser</div>
+</div>
+
+<div class="taskbar">
+  <button onclick="toggleStart()">☰</button>
+</div>
+
+<div class="window" id="window">
+  <div class="title">
+    <span id="title"></span>
+    <button onclick="closeApp()">X</button>
+  </div>
+  <div id="content"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
